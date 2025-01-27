@@ -15,3 +15,4 @@ C:\Users\O M E N\Masaüstü\MuhasebeWebCoreApp\Muhasebe\Muhasebe.DataAccessLayer
 C:\Users\O M E N\Masaüstü\MuhasebeWebCoreApp\Muhasebe\Muhasebe.DataAccessLayer\obj\Debug\net8.0\Muhasebe.DataAccessLayer.pdb
 C:\Users\O M E N\Masaüstü\MuhasebeWebCoreApp\Muhasebe\Muhasebe.DataAccessLayer\obj\Debug\net8.0\Muhasebe.DataAccessLayer.genruntimeconfig.cache
 C:\Users\O M E N\Masaüstü\MuhasebeWebCoreApp\Muhasebe\Muhasebe.DataAccessLayer\obj\Debug\net8.0\ref\Muhasebe.DataAccessLayer.dll
+C:\Users\O M E N\Masaüstü\MuhasebeWebCoreApp\Muhasebe\Muhasebe.DataAccessLayer\obj\Debug\net8.0\Muhasebe.DataAccessLayer.sourcelink.json
