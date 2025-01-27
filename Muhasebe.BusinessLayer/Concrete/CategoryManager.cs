@@ -1,5 +1,6 @@
 ﻿using Muhasebe.BusinessLayer.Abstract;
-using Muhasebe.DataAccessLayer.Repositories;
+using Muhasebe.DataAccessLayer.Abstarct;
+using Muhasebe.DataAccessLayer.EntityFramework;
 using Muhasebe.EntityLayer.Conrete;
 using System;
 using System.Collections.Generic;
@@ -11,30 +12,36 @@ namespace Muhasebe.BusinessLayer.Concrete
 {
     public class CategoryManager : ICategoryService
     {
-        CategoryRepository categoryRepository = new CategoryRepository();
+        ICategoryDAL _categoryDAL;
+
+        public CategoryManager(ICategoryDAL categoryDAL)
+        {
+            _categoryDAL = categoryDAL;
+        }
         public void AddCategory(Category category)
         {
-            
+            _categoryDAL.Insert(category);
         }
 
         public List<Category> GetAll()
         {
-            throw new NotImplementedException();
+            return _categoryDAL.GetAll();
         }
 
         public Category GetById(int id)
         {
-            throw new NotImplementedException();
+
+            return _categoryDAL.GetById(id);
         }
 
         public void RemoveCategory(Category category)
         {
-            throw new NotImplementedException();
+            _categoryDAL.Delete(category);
         }
 
         public void UpdateCategory(Category category)
         {
-            throw new NotImplementedException();
+            _categoryDAL.Update(category);
         }
     }
 }
