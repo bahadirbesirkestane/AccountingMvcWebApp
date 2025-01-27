@@ -1,0 +1,37 @@
+﻿
+@using Muhasebe.EntityLayer.Conrete
+@model List<Category>
+
+<section class="content-header">
+    <h1>
+        Kategori
+        <small>Başlangıç</small>
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Kategori</a></li>
+        @* <li><a href="#">Examples</a></li> *@
+        <li class="active">Index</li>
+    </ol>
+</section>
+
+<table class=" table table-bordered">
+    <tr>
+        <th>Id  </th>
+        <th>Adı  </th>
+        <th>Açıklama  </th>
+        <th>Durum  </th>
+        <th>Şirket Id  </th>
+        <th>Sil  </th>
+    </tr>
+    @foreach(var item in Model)
+    {
+        <tr>
+            <td>@item.CategoryId</td>
+            <td>@item.CategoryName</td>
+            <td><a href="#" class="btn btn-warning ">Açıklama</a> </td>
+            <td>@item.CategoryStatus</td>
+            <td>@item.CompanyId</td>
+            <td><a href="#" class="btn btn-danger ">Sil</a> </td>
+        </tr>
+    }
+</table>
