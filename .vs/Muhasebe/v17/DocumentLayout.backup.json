@@ -1,12 +1,109 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\O M E N\\Masa\u00FCst\u00FC\\MuhasebeWebCoreApp\\Muhasebe\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{77D5A1A7-8E2F-483E-B064-1D642F5C49B7}|Muhasebe\\Muhasebe.csproj|c:\\users\\o m e n\\masa\u00FCst\u00FC\\muhasebewebcoreapp\\muhasebe\\muhasebe\\wwwroot\\adminlte-master\\pages\\charts\\inline.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77D5A1A7-8E2F-483E-B064-1D642F5C49B7}|Muhasebe\\Muhasebe.csproj|solutionrelative:muhasebe\\wwwroot\\adminlte-master\\pages\\charts\\inline.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D5A1A7-8E2F-483E-B064-1D642F5C49B7}|Muhasebe\\Muhasebe.csproj|c:\\users\\o m e n\\masa\u00FCst\u00FC\\muhasebewebcoreapp\\muhasebe\\muhasebe\\wwwroot\\adminlte-master\\pages\\charts\\morris.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77D5A1A7-8E2F-483E-B064-1D642F5C49B7}|Muhasebe\\Muhasebe.csproj|solutionrelative:muhasebe\\wwwroot\\adminlte-master\\pages\\charts\\morris.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D5A1A7-8E2F-483E-B064-1D642F5C49B7}|Muhasebe\\Muhasebe.csproj|c:\\users\\o m e n\\masa\u00FCst\u00FC\\muhasebewebcoreapp\\muhasebe\\muhasebe\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77D5A1A7-8E2F-483E-B064-1D642F5C49B7}|Muhasebe\\Muhasebe.csproj|solutionrelative:muhasebe\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D5A1A7-8E2F-483E-B064-1D642F5C49B7}|Muhasebe\\Muhasebe.csproj|c:\\users\\o m e n\\masa\u00FCst\u00FC\\muhasebewebcoreapp\\muhasebe\\muhasebe\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77D5A1A7-8E2F-483E-B064-1D642F5C49B7}|Muhasebe\\Muhasebe.csproj|solutionrelative:muhasebe\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77D5A1A7-8E2F-483E-B064-1D642F5C49B7}|Muhasebe\\Muhasebe.csproj|c:\\users\\o m e n\\masa\u00FCst\u00FC\\muhasebewebcoreapp\\muhasebe\\muhasebe\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{77D5A1A7-8E2F-483E-B064-1D642F5C49B7}|Muhasebe\\Muhasebe.csproj|solutionrelative:muhasebe\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "inline.html",
+              "DocumentMoniker": "C:\\Users\\O M E N\\Masa\u00FCst\u00FC\\MuhasebeWebCoreApp\\Muhasebe\\Muhasebe\\wwwroot\\AdminLTE-master\\pages\\charts\\inline.html",
+              "RelativeDocumentMoniker": "Muhasebe\\wwwroot\\AdminLTE-master\\pages\\charts\\inline.html",
+              "ToolTip": "C:\\Users\\O M E N\\Masa\u00FCst\u00FC\\MuhasebeWebCoreApp\\Muhasebe\\Muhasebe\\wwwroot\\AdminLTE-master\\pages\\charts\\inline.html",
+              "RelativeToolTip": "Muhasebe\\wwwroot\\AdminLTE-master\\pages\\charts\\inline.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-27T12:21:16.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "morris.html",
+              "DocumentMoniker": "C:\\Users\\O M E N\\Masa\u00FCst\u00FC\\MuhasebeWebCoreApp\\Muhasebe\\Muhasebe\\wwwroot\\AdminLTE-master\\pages\\charts\\morris.html",
+              "RelativeDocumentMoniker": "Muhasebe\\wwwroot\\AdminLTE-master\\pages\\charts\\morris.html",
+              "ToolTip": "C:\\Users\\O M E N\\Masa\u00FCst\u00FC\\MuhasebeWebCoreApp\\Muhasebe\\Muhasebe\\wwwroot\\AdminLTE-master\\pages\\charts\\morris.html",
+              "RelativeToolTip": "Muhasebe\\wwwroot\\AdminLTE-master\\pages\\charts\\morris.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-27T12:20:52.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\O M E N\\Masa\u00FCst\u00FC\\MuhasebeWebCoreApp\\Muhasebe\\Muhasebe\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "Muhasebe\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\O M E N\\Masa\u00FCst\u00FC\\MuhasebeWebCoreApp\\Muhasebe\\Muhasebe\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "Muhasebe\\Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-27T12:07:52.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\O M E N\\Masa\u00FCst\u00FC\\MuhasebeWebCoreApp\\Muhasebe\\Muhasebe\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Muhasebe\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\O M E N\\Masa\u00FCst\u00FC\\MuhasebeWebCoreApp\\Muhasebe\\Muhasebe\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Muhasebe\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-27T12:06:07.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\O M E N\\Masa\u00FCst\u00FC\\MuhasebeWebCoreApp\\Muhasebe\\Muhasebe\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Muhasebe\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\O M E N\\Masa\u00FCst\u00FC\\MuhasebeWebCoreApp\\Muhasebe\\Muhasebe\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Muhasebe\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAF0BAAAAAAAAAAAkwCgBAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-01-27T12:04:22.699Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
