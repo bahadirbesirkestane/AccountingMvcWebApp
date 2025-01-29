@@ -40,12 +40,36 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/O M E N/Masaüstü/MuhasebeWebCoreApp/Muhasebe/Muhasebe/Views/Home/TemplateLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxUZW1wbGF0ZUxheW91dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/O M E N/Masaüstü/MuhasebeWebCoreApp/Muhasebe/Muhasebe/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/O M E N/Masaüstü/MuhasebeWebCoreApp/Muhasebe/Muhasebe/Views/Shared/blank.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXGJsYW5rLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/O M E N/Masaüstü/MuhasebeWebCoreApp/Muhasebe/Muhasebe/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/O M E N/Masaüstü/MuhasebeWebCoreApp/Muhasebe/Muhasebe/Views/Shared/SidebarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNpZGViYXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/O M E N/Masaüstü/MuhasebeWebCoreApp/Muhasebe/Muhasebe/Views/Shared/SidebarPartialOld.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFNpZGViYXJQYXJ0aWFsT2xkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/O M E N/Masaüstü/MuhasebeWebCoreApp/Muhasebe/Muhasebe/Views/Shared/UpdatesMenuPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFVwZGF0ZXNNZW51UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/O M E N/Masaüstü/MuhasebeWebCoreApp/Muhasebe/Muhasebe/Views/Shared/UserMenuPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFVzZXJNZW51UGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/O M E N/Masaüstü/MuhasebeWebCoreApp/Muhasebe/Muhasebe/Views/Shared/_ValidationScriptsPartial.cshtml]
