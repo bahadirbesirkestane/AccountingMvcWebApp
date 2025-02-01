@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Muhasebe.CoreLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e38d400d4909bfa3d3005e8ca66029a1a87c5efd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d784c78cabb89f5e4aa15ee310ebeb86965f4f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Muhasebe.CoreLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Muhasebe.CoreLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

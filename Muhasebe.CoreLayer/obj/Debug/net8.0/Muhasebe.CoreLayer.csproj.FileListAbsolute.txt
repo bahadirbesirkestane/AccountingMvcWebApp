@@ -9,3 +9,4 @@ C:\Users\O M E N\Masaüstü\MuhasebeWebCoreApp\Muhasebe\Muhasebe.CoreLayer\obj\D
 C:\Users\O M E N\Masaüstü\MuhasebeWebCoreApp\Muhasebe\Muhasebe.CoreLayer\obj\Debug\net8.0\refint\Muhasebe.CoreLayer.dll
 C:\Users\O M E N\Masaüstü\MuhasebeWebCoreApp\Muhasebe\Muhasebe.CoreLayer\obj\Debug\net8.0\Muhasebe.CoreLayer.pdb
 C:\Users\O M E N\Masaüstü\MuhasebeWebCoreApp\Muhasebe\Muhasebe.CoreLayer\obj\Debug\net8.0\ref\Muhasebe.CoreLayer.dll
+C:\Users\O M E N\Masaüstü\MuhasebeWebCoreApp\Muhasebe\Muhasebe.CoreLayer\obj\Debug\net8.0\Muhasebe.CoreLayer.sourcelink.json

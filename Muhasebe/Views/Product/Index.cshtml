@@ -18,8 +18,11 @@
         <th>Id  </th>
         <th>Adı  </th>
         <th>Fiyatı  </th>
+        <th>Stok Miktarı</th>
         <th>Kategori </th>
-        <th>Sil  </th>
+        <th>Açıklama  </th>
+        <th>Durumu</th>
+        <th>Detay</th>
     </tr>
     @foreach (var item in Model)
     {
@@ -27,8 +30,19 @@
             <td>@item.ProductId</td>
             <td>@item.ProductName</td>
             <td>@item.Price</td>
-            <td><a href="#" class="btn btn-warning ">@item.CategoryId</a> </td>
-            <td><a href="#" class="btn btn-danger ">Sil</a> </td>
+            <td>@item.StockQuantity</td>
+            <td><a href="#" class="btn btn-warning ">@item.Category.CategoryName </a> </td>
+            @if (item.ProductDescription.Length > 50)
+            {
+                <td>@item.ProductDescription.Substring(0,item.ProductDescription.Substring(0,50).LastIndexOf(" "))  ...</td>
+            }
+            else
+            {
+                <td>@item.ProductDescription</td>
+            }
+            
+            <td>@item.ProductStatus</td>
+            <td><a href="/Product/PrdouctDetails/@item.ProductId" class="btn btn-danger ">Ürün Detayı</a> </td>
         </tr>
     }
 </table>

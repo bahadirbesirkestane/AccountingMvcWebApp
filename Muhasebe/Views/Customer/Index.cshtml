@@ -1,0 +1,45 @@
+﻿@using Muhasebe.EntityLayer.Conrete
+@model List<Customer>
+
+<section class="content-header">
+    <h1>
+        Müşteri
+        <small>Başlangıç</small>
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Müşteriler</a></li>
+        @* <li><a href="#">Examples</a></li> *@
+        <li class="active">Index</li>
+    </ol>
+</section>
+
+@* [CustomerId]
+      ,[CustomerName]
+      ,[CustomerAddress]
+      ,[CustomerPhone]
+      ,[CustomerEmail]
+      ,[CompanyId] *@
+
+<table class=" table table-bordered">
+    <tr>
+        <th>Id  </th>
+        <th>Adı  </th>
+        <th>Adresi  </th>
+        <th>Telefon  </th>
+        <th>Email  </th>
+        <th>CompanyId  </th>
+        <th>Sil  </th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.CustomerId</td>
+            <td>@item.CustomerName</td>
+            <td>@item.CustomerAddress</td>
+            <td>@item.CustomerPhone</td>
+            <td>@item.CustomerEmail</td>
+            <td>@item.CompanyId</td>
+            <td><a href="#" class="btn btn-danger ">Sil</a> </td>
+        </tr>
+    }
+</table>

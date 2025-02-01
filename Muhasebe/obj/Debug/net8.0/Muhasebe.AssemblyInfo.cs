@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Muhasebe")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aaf0377967fb46d3c8e5a8f11b4ac2de40403667")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6d784c78cabb89f5e4aa15ee310ebeb86965f4f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("Muhasebe")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Muhasebe")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

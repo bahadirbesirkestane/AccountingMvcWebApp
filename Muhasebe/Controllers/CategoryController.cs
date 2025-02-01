@@ -9,7 +9,12 @@ namespace Muhasebe.Controllers
         CategoryManager _categoryManager = new CategoryManager(new EfCategoryRepository());
         public IActionResult Index()
         {
-            var values=_categoryManager.GetAll();
+            int companyId = 1;
+            //var values=_categoryManager.GetAll();
+
+            //var values=_categoryManager.GetAllByCompanyId(companyId);
+
+            var values =_categoryManager.GetAllByCompanyId(companyId);
 
             return View(values);
         }
