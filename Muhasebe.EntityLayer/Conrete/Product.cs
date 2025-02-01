@@ -16,11 +16,18 @@ namespace Muhasebe.EntityLayer.Conrete
         [StringLength(150)]
         public string ProductName { get; set; }
 
+        public string ProductDescription { get; set; } // Ürün açıklaması eklendi
+
         public decimal Price { get; set; }
+
+        [Required]
+        public int StockQuantity { get; set; } // Stok adedi eklendi
+
+        [Required]
+        public bool ProductStatus  { get; set; }
 
         public int CategoryId { get; set; }
         public Category Category { get; set; }
 
-        
     }
 }

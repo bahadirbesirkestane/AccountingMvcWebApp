@@ -24,7 +24,9 @@ namespace Muhasebe.EntityLayer.Conrete
 
         // Bir şirketin müşterilerini temsil eden ilişki
         public ICollection<Customer> Customers { get; set; }
-
         public ICollection<Category> Categories { get; set; }
+        public ICollection<User> Users { get; set; }
+
+
     }
 }
