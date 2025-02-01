@@ -28,10 +28,28 @@ namespace Muhasebe.BusinessLayer.Concrete
             return _productDal.GetAll();
         }
 
+        public List<Product> GetAllByCategoryId(int categoryId)
+        {
+            var product= _productDal.GetAll(x => x.CategoryId == categoryId);
+
+            return _productDal.GetAll(x=>x.CategoryId==categoryId);
+        }
+
         public Product GetById(int id)
         {
             throw new NotImplementedException();
         }
+
+        public List<Product> GetProductListWithCategory(int companyId)
+        {
+            //_productDal.GetAllWithCategoty(//companyId);
+            return _productDal.GetProductsWithCategory(companyId);
+        }
+
+        //public List<Product> GetProductListWithCategoryById(int companyId)
+        //{
+        //    return _productDal.GetProductsWithCategory(companyId);
+        //}
 
         public void RemoveProduct(Product product)
         {

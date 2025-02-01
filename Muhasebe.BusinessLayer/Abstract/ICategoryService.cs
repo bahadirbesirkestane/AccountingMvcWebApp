@@ -13,6 +13,9 @@ namespace Muhasebe.BusinessLayer.Abstract
         void RemoveCategory(Category category);
         void UpdateCategory(Category category);
         List<Category> GetAll();
+        List<Category> GetAllByCompanyId(int companyId);
         Category GetById(int id);
+        //List<Category> GetAllByCompanyId(int companyId);
+
     }
 }

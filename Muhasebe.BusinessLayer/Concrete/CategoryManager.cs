@@ -28,6 +28,16 @@ namespace Muhasebe.BusinessLayer.Concrete
             return _categoryDAL.GetAll();
         }
 
+        public List<Category> GetAllByCompanyId(int companyId)
+        {
+            return _categoryDAL.GetAll(x=> x.CompanyId == companyId);
+        }
+
+        //public List<Category> GetAllByCompanyId(int companyId)
+        //{
+        //    return _categoryDAL.GetAllWithCompanyId(companyId);
+        //}
+
         public Category GetById(int id)
         {
 

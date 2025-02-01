@@ -14,5 +14,9 @@ namespace Muhasebe.BusinessLayer.Abstract
         void UpdateProduct(Product product);
         List<Product> GetAll();
         Product GetById(int id);
+        List<Product> GetAllByCategoryId(int categoryId);
+        List<Product> GetProductListWithCategory(int companyId); // companyId
+        //List<Product> GetProductListWithCategoryById(int companyId); // companyId
+
     }
 }
