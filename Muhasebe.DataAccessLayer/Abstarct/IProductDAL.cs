@@ -9,5 +9,9 @@ namespace Muhasebe.DataAccessLayer.Abstarct
 {
     public interface IProductDAL : IGenericDAL<Product>
     {
+        List<Product> GetAllWithCategoty(); // CombanyId
+
+        List<Product> GetProductsWithCategory(int companyId); // CombanyId
+
     }
 }

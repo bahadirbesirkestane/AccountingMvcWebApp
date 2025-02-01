@@ -3,6 +3,7 @@ using Muhasebe.DataAccessLayer.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -38,6 +39,13 @@ namespace Muhasebe.DataAccessLayer.Repositories
             using var _context = new Context();
             _context.Add(entity);
             _context.SaveChanges();
+        }
+
+        public List<T> GetAll(Expression<Func<T, bool>> filter)
+        {
+            using var _context = new Context();
+            
+            return _context.Set<T>().Where(filter).ToList();
         }
 
         public void Update(T entity)

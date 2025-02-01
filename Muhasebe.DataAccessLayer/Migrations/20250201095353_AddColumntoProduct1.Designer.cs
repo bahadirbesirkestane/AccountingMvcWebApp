@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Muhasebe.DataAccessLayer.Concrete;
 
@@ -11,9 +12,11 @@ using Muhasebe.DataAccessLayer.Concrete;
 namespace Muhasebe.DataAccessLayer.Migrations
 {
     [DbContext(typeof(Context))]
-    partial class ContextModelSnapshot : ModelSnapshot
+    [Migration("20250201095353_AddColumntoProduct1")]
+    partial class AddColumntoProduct1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -49,7 +52,7 @@ namespace Muhasebe.DataAccessLayer.Migrations
 
                     b.HasIndex("CompanyId");
 
-                    b.ToTable("Categories", (string)null);
+                    b.ToTable("Categories");
                 });
 
             modelBuilder.Entity("Muhasebe.EntityLayer.Conrete.Company", b =>
@@ -75,7 +78,7 @@ namespace Muhasebe.DataAccessLayer.Migrations
 
                     b.HasKey("CompanyId");
 
-                    b.ToTable("Companies", (string)null);
+                    b.ToTable("Companies");
                 });
 
             modelBuilder.Entity("Muhasebe.EntityLayer.Conrete.Customer", b =>
@@ -110,7 +113,7 @@ namespace Muhasebe.DataAccessLayer.Migrations
 
                     b.HasIndex("CompanyId");
 
-                    b.ToTable("Customers", (string)null);
+                    b.ToTable("Customers");
                 });
 
             modelBuilder.Entity("Muhasebe.EntityLayer.Conrete.Invoice", b =>
@@ -134,7 +137,7 @@ namespace Muhasebe.DataAccessLayer.Migrations
 
                     b.HasIndex("CustomerId");
 
-                    b.ToTable("Invoices", (string)null);
+                    b.ToTable("Invoices");
                 });
 
             modelBuilder.Entity("Muhasebe.EntityLayer.Conrete.InvoiceItem", b =>
@@ -163,7 +166,7 @@ namespace Muhasebe.DataAccessLayer.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("InvoiceItems", (string)null);
+                    b.ToTable("InvoiceItems");
                 });
 
             modelBuilder.Entity("Muhasebe.EntityLayer.Conrete.Order", b =>
@@ -190,7 +193,7 @@ namespace Muhasebe.DataAccessLayer.Migrations
 
                     b.HasIndex("CustomerId");
 
-                    b.ToTable("Orders", (string)null);
+                    b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("Muhasebe.EntityLayer.Conrete.OrderDetail", b =>
@@ -219,7 +222,7 @@ namespace Muhasebe.DataAccessLayer.Migrations
 
                     b.HasIndex("ProductId");
 
-                    b.ToTable("OrderDetails", (string)null);
+                    b.ToTable("OrderDetails");
                 });
 
             modelBuilder.Entity("Muhasebe.EntityLayer.Conrete.Payment", b =>
@@ -246,7 +249,7 @@ namespace Muhasebe.DataAccessLayer.Migrations
 
                     b.HasIndex("CustomerId");
 
-                    b.ToTable("Payments", (string)null);
+                    b.ToTable("Payments");
                 });
 
             modelBuilder.Entity("Muhasebe.EntityLayer.Conrete.Product", b =>
@@ -282,7 +285,7 @@ namespace Muhasebe.DataAccessLayer.Migrations
 
                     b.HasIndex("CategoryId");
 
-                    b.ToTable("Products", (string)null);
+                    b.ToTable("Products");
                 });
 
             modelBuilder.Entity("Muhasebe.EntityLayer.Conrete.Role", b =>
@@ -300,7 +303,7 @@ namespace Muhasebe.DataAccessLayer.Migrations
 
                     b.HasKey("RoleId");
 
-                    b.ToTable("Roles", (string)null);
+                    b.ToTable("Roles");
                 });
 
             modelBuilder.Entity("Muhasebe.EntityLayer.Conrete.User", b =>
@@ -310,9 +313,6 @@ namespace Muhasebe.DataAccessLayer.Migrations
                         .HasColumnType("int");
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("UserId"));
-
-                    b.Property<int>("CompanyId")
-                        .HasColumnType("int");
 
                     b.Property<int>("RoleId")
                         .HasColumnType("int");
@@ -329,11 +329,9 @@ namespace Muhasebe.DataAccessLayer.Migrations
 
                     b.HasKey("UserId");
 
-                    b.HasIndex("CompanyId");
-
                     b.HasIndex("RoleId");
 
-                    b.ToTable("Users", (string)null);
+                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("Muhasebe.EntityLayer.Conrete.Category", b =>
@@ -442,19 +440,11 @@ namespace Muhasebe.DataAccessLayer.Migrations
 
             modelBuilder.Entity("Muhasebe.EntityLayer.Conrete.User", b =>
                 {
-                    b.HasOne("Muhasebe.EntityLayer.Conrete.Company", "Company")
-                        .WithMany("Users")
-                        .HasForeignKey("CompanyId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.HasOne("Muhasebe.EntityLayer.Conrete.Role", "Role")
                         .WithMany()
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Company");
 
                     b.Navigation("Role");
                 });
@@ -469,8 +459,6 @@ namespace Muhasebe.DataAccessLayer.Migrations
                     b.Navigation("Categories");
 
                     b.Navigation("Customers");
-
-                    b.Navigation("Users");
                 });
 
             modelBuilder.Entity("Muhasebe.EntityLayer.Conrete.Customer", b =>

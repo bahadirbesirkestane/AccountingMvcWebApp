@@ -9,7 +9,7 @@ namespace Muhasebe.DataAccessLayer.Abstarct
 {
     public interface ICategoryDAL : IGenericDAL<Category>
     {
-        
+        //List<Category> GetAllWithCompanyId(int companyId);
 
     }
 }
